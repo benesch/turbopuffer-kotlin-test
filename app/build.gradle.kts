@@ -9,12 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.turbopuffer.api:turbopuffer-kotlin") {
-        version {
-            branch = "main"
-        }
-    }
-    implementation("io.exoquery:pprint-kotlin:2.0.2")
+    implementation("com.turbopuffer:turbopuffer-java:0.1.0-beta.0")
     implementation(libs.guava)
 }
 
@@ -26,5 +21,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass = "org.example.App"
 }
